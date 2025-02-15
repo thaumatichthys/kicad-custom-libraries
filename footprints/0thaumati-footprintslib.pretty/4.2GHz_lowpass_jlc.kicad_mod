@@ -1,0 +1,161 @@
+(footprint "4.2GHz_lowpass_jlc"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 15 -10 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d1dd6ec3-21a1-4ade-a65f-8bbfc4117e14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "4.2GHz_lowpass_jlc"
+		(at 15 -8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "932b21fc-d810-462a-be64-5ace115888d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42cbf59a-33a8-4d14-80f1-e355f425a1df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff8917f9-ee2d-4720-975b-77752b6a0b59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59fa0602-5a53-4243-81f0-87c1a5a66f7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 0)
+		(end 29.53 0)
+		(stroke
+			(width 0.1836)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "5b7dd666-ddde-492a-9de4-841760af7bd4")
+	)
+	(fp_rect
+		(start 2.424 -3.1235)
+		(end 5.961 3.1235)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "55a8806c-bfc6-4aac-b9c1-4de4e8b1a105")
+	)
+	(fp_rect
+		(start 10.365 -3.1235)
+		(end 14.67 3.1235)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "c0784cc5-91a2-492e-a53a-77c182705188")
+	)
+	(fp_rect
+		(start 18.713 -3.1235)
+		(end 23.418 3.1235)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "ea8a7b03-09a4-4c96-8b11-9f38b111df3e")
+	)
+	(fp_rect
+		(start 26.715 -3.1235)
+		(end 29.35 3.1235)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "40341a4b-a033-4c21-aaf1-9e028160b46e")
+	)
+	(fp_text user "2 layer PCB, Er=4.6, dielectric height = 0.93mm, copper thickness = 35 microns, 8th order chebyshev"
+		(at -19 8 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "e207aeec-d2fb-4d2c-9e19-ed881645e43d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 15 -6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2150d738-e7f9-4003-8aec-583f8acc919c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 0)
+		(size 2 1.68)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c0525368-ec46-4a22-8f02-157fed7696cb")
+	)
+	(pad "2" smd rect
+		(at 30.35 0)
+		(size 2 1.68)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "488d50c7-5110-411c-8fa3-30e52ba886ee")
+	)
+)
