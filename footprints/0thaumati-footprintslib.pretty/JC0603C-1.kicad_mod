@@ -1,7 +1,7 @@
 (footprint "JC0603C-1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.65 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "da7f8b6a-82ab-49da-9731-59dbee0d6e14")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6ee8e6f3-0411-4c32-be7e-eb403e591373")
 		(effects
 			(font
 				(size 1 1)
@@ -192,20 +179,20 @@
 	(pad "1" smd rect
 		(at -0.945 0)
 		(size 0.65 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "5e52f32d-e2cf-4c34-86c1-00ee6950dd86")
 	)
 	(pad "2" smd rect
 		(at 0 0.55)
 		(size 0.8 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "90d40869-1aac-4f74-96f3-880fa82c28c6")
 	)
 	(pad "2" thru_hole circle
 		(at 0 0.725)
-		(size 0.5 0.5)
+		(size 0.6 0.6)
 		(drill 0.35)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -214,13 +201,13 @@
 	(pad "3" smd rect
 		(at 0.945 0)
 		(size 0.65 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "fed18eb9-3138-4242-9e40-94ea4e4f340a")
 	)
 	(pad "4" thru_hole circle
 		(at 0 -0.725)
-		(size 0.5 0.5)
+		(size 0.6 0.6)
 		(drill 0.35)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -229,8 +216,9 @@
 	(pad "4" smd rect
 		(at 0 -0.55)
 		(size 0.8 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "08224848-92f7-4e06-8f53-b9b862f0c2d0")
 	)
+	(embedded_fonts no)
 )
