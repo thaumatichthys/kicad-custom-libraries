@@ -2588,207 +2588,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Coaxial_Balun"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "T"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0thaumati-footprintslib:UHF_Coaxial_Balun"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Coaxial_Balun_1_1"
-			(rectangle
-				(start -7.6224 6.352)
-				(end 7.6224 -6.352)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin passive line
-<<<<<<< HEAD
-				(at -10.16 2.54 0)
-				(length 2.54)
-				(name "GND"
-=======
-				(at -17.78 11.43 0)
-				(length 2.54)
-				(name "RF_IN"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-<<<<<<< HEAD
-			(pin passive line
-				(at -10.16 0 0)
-				(length 2.54)
-				(name "Unbal"
-=======
-			(pin input line
-				(at -17.78 6.35 0)
-				(length 2.54)
-				(name "LE"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-<<<<<<< HEAD
-				(number "2"
-=======
-				(number "5"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-<<<<<<< HEAD
-			(pin passive line
-				(at -10.16 -2.54 0)
-=======
-			(pin input line
-				(at -17.78 1.27 0)
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-				(length 2.54)
-				(name "C16*"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-<<<<<<< HEAD
-				(number "3"
-=======
-				(number "1"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-<<<<<<< HEAD
-			(pin passive line
-				(at 10.16 2.54 180)
-				(length 2.54)
-				(name "Bal+"
-=======
-			(pin input line
-				(at -17.78 -1.27 0)
-				(length 2.54)
-				(name "C8"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-<<<<<<< HEAD
-				(number "5"
-=======
-				(number "15"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-<<<<<<< HEAD
-			(pin passive line
-				(at 10.16 -2.54 180)
-				(length 2.54)
-				(name "Bal-"
-=======
-			(pin input line
-				(at -17.78 -3.81 0)
-				(length 2.54)
-				(name "C4"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-<<<<<<< HEAD
-				(number "4"
-=======
-				(number "16"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-<<<<<<< HEAD
-		)
-		(embedded_fonts no)
-	)
 	(symbol "DAT-31A-PP+"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2852,23 +2651,13 @@
 				(at -17.78 11.43 0)
 				(length 2.54)
 				(name "RF_IN"
-=======
-			(pin input line
-				(at -17.78 -6.35 0)
-				(length 2.54)
-				(name "C2"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "2"
-=======
-				(number "17"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2877,26 +2666,16 @@
 				)
 			)
 			(pin input line
-<<<<<<< HEAD
 				(at -17.78 6.35 0)
 				(length 2.54)
 				(name "LE"
-=======
-				(at -17.78 -8.89 0)
-				(length 2.54)
-				(name "C1"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "5"
-=======
-				(number "19"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2904,28 +2683,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin input line
 				(at -17.78 1.27 0)
 				(length 2.54)
 				(name "C16*"
-=======
-			(pin power_in line
-				(at -11.43 -17.78 90)
-				(length 2.54)
-				(name "GND"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "1"
-=======
-				(number "4"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2933,28 +2701,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin input line
 				(at -17.78 -1.27 0)
 				(length 2.54)
 				(name "C8"
-=======
-			(pin power_in line
-				(at -8.89 -17.78 90)
-				(length 2.54)
-				(name "GND"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "15"
-=======
-				(number "10"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2962,13 +2719,8 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin input line
 				(at -17.78 -3.81 0)
-=======
-			(pin power_in line
-				(at -6.35 -17.78 90)
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 				(length 2.54)
 				(name "C4"
 					(effects
@@ -2977,11 +2729,7 @@
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "16"
-=======
-				(number "11"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2989,28 +2737,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin input line
 				(at -17.78 -6.35 0)
 				(length 2.54)
 				(name "C2"
-=======
-			(pin power_in line
-				(at -3.81 -17.78 90)
-				(length 2.54)
-				(name "GND*"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "17"
-=======
-				(number "12"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3018,28 +2755,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin input line
 				(at -17.78 -8.89 0)
 				(length 2.54)
 				(name "C1"
-=======
-			(pin power_in line
-				(at -2.54 17.78 270)
-				(length 2.54)
-				(name "VDD"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "19"
-=======
-				(number "9"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3048,11 +2774,7 @@
 				)
 			)
 			(pin power_in line
-<<<<<<< HEAD
 				(at -11.43 -17.78 90)
-=======
-				(at -1.27 -17.78 90)
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -3061,11 +2783,7 @@
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "4"
-=======
-				(number "13"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3074,11 +2792,7 @@
 				)
 			)
 			(pin power_in line
-<<<<<<< HEAD
 				(at -8.89 -17.78 90)
-=======
-				(at 1.27 -17.78 90)
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -3087,11 +2801,7 @@
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "10"
-=======
-				(number "18"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3100,26 +2810,16 @@
 				)
 			)
 			(pin power_in line
-<<<<<<< HEAD
 				(at -6.35 -17.78 90)
 				(length 2.54)
 				(name "GND"
-=======
-				(at 2.54 17.78 270)
-				(length 2.54)
-				(name "VDD"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "11"
-=======
-				(number "6"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3128,11 +2828,7 @@
 				)
 			)
 			(pin power_in line
-<<<<<<< HEAD
 				(at -3.81 -17.78 90)
-=======
-				(at 3.81 -17.78 90)
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 				(length 2.54)
 				(name "GND*"
 					(effects
@@ -3141,11 +2837,7 @@
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "12"
-=======
-				(number "21"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3153,28 +2845,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin power_in line
 				(at -2.54 17.78 270)
 				(length 2.54)
 				(name "VDD"
-=======
-			(pin passive line
-				(at 8.89 -17.78 90)
-				(length 2.54)
-				(name "NC*"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "9"
-=======
-				(number "20"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3182,28 +2863,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin power_in line
 				(at -1.27 -17.78 90)
 				(length 2.54)
 				(name "GND"
-=======
-			(pin input line
-				(at 11.43 -17.78 90)
-				(length 2.54)
-				(name "NC*"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "13"
-=======
-				(number "3"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3211,28 +2881,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin power_in line
 				(at 1.27 -17.78 90)
 				(length 2.54)
 				(name "GND"
-=======
-			(pin passive line
-				(at 17.78 7.62 180)
-				(length 2.54)
-				(name "RF_OUT"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "18"
-=======
-				(number "14"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3240,28 +2899,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin power_in line
 				(at 2.54 17.78 270)
 				(length 2.54)
 				(name "VDD"
-=======
-			(pin input line
-				(at 17.78 -6.35 180)
-				(length 2.54)
-				(name "PUP1"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "6"
-=======
-				(number "7"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3269,24 +2917,16 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin power_in line
 				(at 3.81 -17.78 90)
 				(length 2.54)
 				(name "GND"
-=======
-			(pin input line
-				(at 17.78 -8.89 180)
-				(length 2.54)
-				(name "PUP2"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "21"
 					(effects
 						(font
@@ -3377,8 +3017,6 @@
 						)
 					)
 				)
-=======
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 				(number "8"
 					(effects
 						(font
@@ -4752,187 +4390,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "HMC788LP2"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HMC788"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_CSP:LFCSP-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/HMC788A.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.01 GHz to 10 GHz, MMIC, GaAs, pHEMT RF Gain Block"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "HMC788LP2_1_1"
-			(rectangle
-				(start -7.62 7.62)
-				(end 7.62 -7.62)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-<<<<<<< HEAD
-			(pin input line
-				(at -10.16 0 0)
-				(length 2.54)
-				(name "RFIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-=======
-			(polyline
-				(pts
-					(xy 6.35 6.985) (xy 6.35 3.175) (xy 3.175 3.175) (xy 3.175 1.905) (xy 6.35 1.905) (xy 6.35 0.635)
-					(xy 3.175 0.635) (xy 3.175 -0.635) (xy 6.35 -0.635) (xy 6.35 -1.905) (xy 3.175 -1.905) (xy 3.175 -3.175)
-					(xy 6.35 -3.175) (xy 6.35 -5.715) (xy 2.54 -5.715)
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -10.16 90)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -10.16 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -10.16 90)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -10.16 90)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name "RFOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(symbol "JDY-40"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4994,7 +4451,9 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 -4.445) (xy 2.54 -4.445)
+					(xy 6.35 6.985) (xy 6.35 3.175) (xy 3.175 3.175) (xy 3.175 1.905) (xy 6.35 1.905) (xy 6.35 0.635)
+					(xy 3.175 0.635) (xy 3.175 -0.635) (xy 6.35 -0.635) (xy 6.35 -1.905) (xy 3.175 -1.905) (xy 3.175 -3.175)
+					(xy 6.35 -3.175) (xy 6.35 -5.715) (xy 2.54 -5.715)
 				)
 				(stroke
 					(width 0)
@@ -5522,7 +4981,6 @@
 				(at 0 8.89 270)
 				(length 2.54)
 				(name "VDD"
-<<<<<<< HEAD
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5559,15 +5017,12 @@
 				(at 10.16 3.81 180)
 				(length 2.54)
 				(name "Y0"
-=======
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "3"
 					(effects
 						(font
@@ -5623,873 +5078,6 @@
 					)
 				)
 				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "LMX2594"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMX2594"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-40-1EP_6x6mm_P0.5mm_EP3.5x3.5mm_ThermalVias"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmx2594.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LMX2594 15-GHz Wideband PLLATINUM™ RF Synthesizer With Phase Synchronization and JESD204B Support"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "LMX2594_1_1"
-			(rectangle
-				(start -24.13 26.67)
-				(end 24.13 -26.67)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input line
-				(at -26.67 19.05 0)
-				(length 2.54)
-				(name "SYNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -26.67 16.51 0)
-				(length 2.54)
-				(name "SysRefReq"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -26.67 13.97 0)
-				(length 2.54)
-				(name "RampClk"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -26.67 11.43 0)
-				(length 2.54)
-				(name "RampDir"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -26.67 6.35 0)
-				(length 2.54)
-				(name "VregIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -26.67 1.27 0)
-				(length 2.54)
-				(name "VrefVCO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -26.67 -1.27 0)
-				(length 2.54)
-				(name "VregVCO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "38"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -26.67 -3.81 0)
-				(length 2.54)
-				(name "VrefVCO2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -26.67 -6.35 0)
-				(length 2.54)
-				(name "VbiasVCO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -26.67 -8.89 0)
-				(length 2.54)
-				(name "VbiasVCO2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -26.67 -11.43 0)
-				(length 2.54)
-				(name "VbiasVARAC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -26.67 -16.51 0)
-				(length 2.54)
-				(name "OSCinP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -26.67 -19.05 0)
-				(length 2.54)
-				(name "OSCinM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -12.7 29.21 270)
-				(length 2.54)
-				(name "VccVCO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "37"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -7.62 29.21 270)
-				(length 2.54)
-				(name "VccVCO2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -29.21 90)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -29.21 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -29.21 90)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -29.21 90)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -29.21 90)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -29.21 90)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "39"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -29.21 90)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -29.21 90)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "40"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 29.21 270)
-				(length 2.54)
-				(name "VccMASH"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -29.21 90)
-				(length 2.54)
-				(name "EP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "41"
-=======
-				(number "6"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 2.54 29.21 270)
-				(length 2.54)
-				(name "VccCP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-<<<<<<< HEAD
-			(pin passive line
-				(at 2.54 -29.21 90)
-				(length 2.54)
-				(name "CPGND"
-=======
-			(pin output line
-				(at 10.16 3.81 180)
-				(length 2.54)
-				(name "Y0"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-<<<<<<< HEAD
-				(number "13"
-=======
-				(number "3"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-<<<<<<< HEAD
-			(pin power_in line
-				(at 7.62 29.21 270)
-				(length 2.54)
-				(name "VccDIG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -29.21 90)
-				(length 2.54)
-				(hide yes)
-				(name "DGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -29.21 90)
-				(length 2.54)
-				(name "DGND"
-=======
-			(pin output line
-				(at 10.16 1.27 180)
-				(length 2.54)
-				(name "Y1"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 12.7 29.21 270)
-				(length 2.54)
-				(name "VccBUF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-<<<<<<< HEAD
-				(at 26.67 22.86 180)
-				(length 2.54)
-				(name "RFoutAP"
-=======
-				(at 10.16 -1.27 180)
-				(length 2.54)
-				(name "Y2"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-<<<<<<< HEAD
-				(number "23"
-=======
-				(number "5"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-<<<<<<< HEAD
-				(at 26.67 20.32 180)
-				(length 2.54)
-				(name "RFoutAM"
-=======
-				(at 10.16 -3.81 180)
-				(length 2.54)
-				(name "Y3"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-<<<<<<< HEAD
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 26.67 15.24 180)
-				(length 2.54)
-				(name "RFoutBP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 26.67 12.7 180)
-				(length 2.54)
-				(name "RFoutBM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 26.67 5.08 180)
-				(length 2.54)
-				(name "MUXout"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 26.67 -2.54 180)
-				(length 2.54)
-				(name "CPout"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 26.67 -5.08 180)
-				(length 2.54)
-				(name "Vtune"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "35"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 26.67 -12.7 180)
-				(length 2.54)
-				(name "CE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 26.67 -17.78 180)
-				(length 2.54)
-				(name "SCK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 26.67 -20.32 180)
-				(length 2.54)
-				(name "SDI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 26.67 -22.86 180)
-				(length 2.54)
-				(name "CSB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-=======
-				(number "7"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10434,7 +9022,6 @@
 					)
 				)
 				(number "2"
-<<<<<<< HEAD
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10453,8 +9040,6 @@
 					)
 				)
 				(number "3"
-=======
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10462,28 +9047,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin tri_state line
 				(at -12.7 16.51 0)
 				(length 2.54)
 				(name "GP2"
-=======
-			(pin power_in line
-				(at -12.7 19.05 0)
-				(length 2.54)
-				(name "GND"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "4"
-=======
-				(number "3"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10492,22 +9066,15 @@
 				)
 			)
 			(pin tri_state line
-<<<<<<< HEAD
 				(at -12.7 13.97 0)
 				(length 2.54)
 				(name "GP3"
-=======
-				(at -12.7 16.51 0)
-				(length 2.54)
-				(name "GP2"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "5"
 					(effects
 						(font
@@ -10545,9 +9112,6 @@
 					)
 				)
 				(number "7"
-=======
-				(number "4"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10555,26 +9119,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin power_in line
 				(at -12.7 6.35 0)
-=======
-			(pin tri_state line
-				(at -12.7 13.97 0)
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 				(length 2.54)
-				(name "GP3"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "8"
-=======
-				(number "5"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10583,26 +9138,16 @@
 				)
 			)
 			(pin tri_state line
-<<<<<<< HEAD
 				(at -12.7 3.81 0)
 				(length 2.54)
 				(name "GP6"
-=======
-				(at -12.7 11.43 0)
-				(length 2.54)
-				(name "GP4"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "9"
-=======
-				(number "6"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10611,26 +9156,16 @@
 				)
 			)
 			(pin tri_state line
-<<<<<<< HEAD
 				(at -12.7 1.27 0)
 				(length 2.54)
 				(name "GP7"
-=======
-				(at -12.7 8.89 0)
-				(length 2.54)
-				(name "GP5"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "10"
-=======
-				(number "7"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10638,28 +9173,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin tri_state line
 				(at -12.7 -1.27 0)
 				(length 2.54)
 				(name "GP8"
-=======
-			(pin power_in line
-				(at -12.7 6.35 0)
-				(length 2.54)
-				(name "GND"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "11"
-=======
-				(number "8"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10668,26 +9192,16 @@
 				)
 			)
 			(pin tri_state line
-<<<<<<< HEAD
 				(at -12.7 -3.81 0)
 				(length 2.54)
 				(name "GP9"
-=======
-				(at -12.7 3.81 0)
-				(length 2.54)
-				(name "GP6"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "12"
-=======
-				(number "9"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10695,26 +9209,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin power_in line
 				(at -12.7 -6.35 0)
-=======
-			(pin tri_state line
-				(at -12.7 1.27 0)
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 				(length 2.54)
-				(name "GP7"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "13"
-=======
-				(number "10"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10723,26 +9228,16 @@
 				)
 			)
 			(pin tri_state line
-<<<<<<< HEAD
 				(at -12.7 -8.89 0)
 				(length 2.54)
 				(name "GP10"
-=======
-				(at -12.7 -1.27 0)
-				(length 2.54)
-				(name "GP8"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "14"
-=======
-				(number "11"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10751,26 +9246,16 @@
 				)
 			)
 			(pin tri_state line
-<<<<<<< HEAD
 				(at -12.7 -11.43 0)
 				(length 2.54)
 				(name "GP11"
-=======
-				(at -12.7 -3.81 0)
-				(length 2.54)
-				(name "GP9"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "15"
-=======
-				(number "12"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10778,28 +9263,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin tri_state line
 				(at -12.7 -13.97 0)
 				(length 2.54)
 				(name "GP12"
-=======
-			(pin power_in line
-				(at -12.7 -6.35 0)
-				(length 2.54)
-				(name "GND"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "16"
-=======
-				(number "13"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10808,26 +9282,16 @@
 				)
 			)
 			(pin tri_state line
-<<<<<<< HEAD
 				(at -12.7 -16.51 0)
 				(length 2.54)
 				(name "GP13"
-=======
-				(at -12.7 -8.89 0)
-				(length 2.54)
-				(name "GP10"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "17"
-=======
-				(number "14"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10835,28 +9299,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin power_in line
 				(at -12.7 -19.05 0)
 				(length 2.54)
 				(name "GND"
-=======
-			(pin tri_state line
-				(at -12.7 -11.43 0)
-				(length 2.54)
-				(name "GP11"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "18"
-=======
-				(number "15"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10865,26 +9318,16 @@
 				)
 			)
 			(pin tri_state line
-<<<<<<< HEAD
 				(at -12.7 -21.59 0)
 				(length 2.54)
 				(name "GP14"
-=======
-				(at -12.7 -13.97 0)
-				(length 2.54)
-				(name "GP12"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "19"
-=======
-				(number "16"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10893,26 +9336,16 @@
 				)
 			)
 			(pin tri_state line
-<<<<<<< HEAD
 				(at -12.7 -24.13 0)
 				(length 2.54)
 				(name "GP15"
-=======
-				(at -12.7 -16.51 0)
-				(length 2.54)
-				(name "GP13"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "20"
-=======
-				(number "17"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10920,28 +9353,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin tri_state line
 				(at -2.54 -29.21 90)
 				(length 2.54)
 				(name "SWCLK"
-=======
-			(pin power_in line
-				(at -12.7 -19.05 0)
-				(length 2.54)
-				(name "GND"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "41"
-=======
-				(number "18"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10949,28 +9371,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin power_in line
 				(at 0 -29.21 90)
 				(length 2.54)
 				(name "GND"
-=======
-			(pin tri_state line
-				(at -12.7 -21.59 0)
-				(length 2.54)
-				(name "GP14"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "42"
-=======
-				(number "19"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10979,22 +9390,15 @@
 				)
 			)
 			(pin tri_state line
-<<<<<<< HEAD
 				(at 2.54 -29.21 90)
 				(length 2.54)
 				(name "SWDIO"
-=======
-				(at -12.7 -24.13 0)
-				(length 2.54)
-				(name "GP15"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "43"
 					(effects
 						(font
@@ -11014,9 +9418,6 @@
 					)
 				)
 				(number "40"
-=======
-				(number "20"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11024,28 +9425,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin power_in line
 				(at 12.7 21.59 180)
 				(length 2.54)
 				(name "VSYS"
-=======
-			(pin tri_state line
-				(at -2.54 -29.21 90)
-				(length 2.54)
-				(name "SWCLK"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "39"
-=======
-				(number "41"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11054,11 +9444,7 @@
 				)
 			)
 			(pin power_in line
-<<<<<<< HEAD
 				(at 12.7 19.05 180)
-=======
-				(at 0 -29.21 90)
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -11067,11 +9453,7 @@
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "38"
-=======
-				(number "42"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11079,28 +9461,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin input line
 				(at 12.7 16.51 180)
 				(length 2.54)
 				(name "3V3_EN"
-=======
-			(pin tri_state line
-				(at 2.54 -29.21 90)
-				(length 2.54)
-				(name "SWDIO"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "37"
-=======
-				(number "43"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11108,28 +9479,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin power_out line
 				(at 12.7 13.97 180)
 				(length 2.54)
 				(name "3V3_OUT"
-=======
-			(pin passive line
-				(at 12.7 24.13 180)
-				(length 2.54)
-				(name "VBUS"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "36"
-=======
-				(number "40"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11137,28 +9497,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin passive line
 				(at 12.7 11.43 180)
 				(length 2.54)
 				(name "ADC_VREF"
-=======
-			(pin power_in line
-				(at 12.7 21.59 180)
-				(length 2.54)
-				(name "VSYS"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "35"
-=======
-				(number "39"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11166,28 +9515,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin tri_state line
 				(at 12.7 8.89 180)
 				(length 2.54)
 				(name "GP28"
-=======
-			(pin power_in line
-				(at 12.7 19.05 180)
-				(length 2.54)
-				(name "GND"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "34"
-=======
-				(number "38"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11195,122 +9533,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 12.7 16.51 180)
-				(length 2.54)
-				(name "3V3_EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "37"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-<<<<<<< HEAD
-			(pin tri_state line
-				(at 12.7 3.81 180)
-				(length 2.54)
-				(name "GP27"
-=======
-			(pin power_out line
-				(at 12.7 13.97 180)
-				(length 2.54)
-				(name "3V3_OUT"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-<<<<<<< HEAD
-				(number "32"
-=======
-				(number "36"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin tri_state line
-				(at 12.7 1.27 180)
-				(length 2.54)
-				(name "GP26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-<<<<<<< HEAD
-			(pin input line
-				(at 12.7 -1.27 180)
-				(length 2.54)
-				(name "RUN"
-=======
-			(pin tri_state line
-				(at 12.7 8.89 180)
-				(length 2.54)
-				(name "GP28"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-<<<<<<< HEAD
-				(number "30"
-=======
-				(number "34"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-<<<<<<< HEAD
-			(pin tri_state line
-				(at 12.7 -3.81 180)
-				(length 2.54)
-				(name "GP22"
-=======
 			(pin power_in line
 				(at 12.7 6.35 180)
 				(length 2.54)
 				(name "GND"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "29"
-=======
 				(number "33"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11318,13 +9551,8 @@
 					)
 				)
 			)
-<<<<<<< HEAD
-			(pin power_in line
-				(at 12.7 -6.35 180)
-=======
 			(pin tri_state line
 				(at 12.7 3.81 180)
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 				(length 2.54)
 				(name "GP27"
 					(effects
@@ -11333,11 +9561,7 @@
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "28"
-=======
 				(number "32"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11346,26 +9570,16 @@
 				)
 			)
 			(pin tri_state line
-<<<<<<< HEAD
-				(at 12.7 -8.89 180)
-				(length 2.54)
-				(name "GP21"
-=======
 				(at 12.7 1.27 180)
 				(length 2.54)
 				(name "GP26"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "27"
-=======
 				(number "31"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11373,28 +9587,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
-			(pin tri_state line
-				(at 12.7 -11.43 180)
-				(length 2.54)
-				(name "GP20"
-=======
 			(pin input line
 				(at 12.7 -1.27 180)
 				(length 2.54)
 				(name "RUN"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "26"
-=======
 				(number "30"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11403,26 +9606,16 @@
 				)
 			)
 			(pin tri_state line
-<<<<<<< HEAD
-				(at 12.7 -13.97 180)
-				(length 2.54)
-				(name "GP19"
-=======
 				(at 12.7 -3.81 180)
 				(length 2.54)
 				(name "GP22"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "25"
-=======
 				(number "29"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11430,28 +9623,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
-			(pin tri_state line
-				(at 12.7 -16.51 180)
-				(length 2.54)
-				(name "GP18"
-=======
 			(pin power_in line
 				(at 12.7 -6.35 180)
 				(length 2.54)
 				(name "GND"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "24"
-=======
 				(number "28"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11459,13 +9641,8 @@
 					)
 				)
 			)
-<<<<<<< HEAD
-			(pin power_in line
-				(at 12.7 -19.05 180)
-=======
 			(pin tri_state line
 				(at 12.7 -8.89 180)
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 				(length 2.54)
 				(name "GP21"
 					(effects
@@ -11474,11 +9651,7 @@
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "23"
-=======
 				(number "27"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11487,26 +9660,16 @@
 				)
 			)
 			(pin tri_state line
-<<<<<<< HEAD
-				(at 12.7 -21.59 180)
-				(length 2.54)
-				(name "GP17"
-=======
 				(at 12.7 -11.43 180)
 				(length 2.54)
 				(name "GP20"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "22"
-=======
 				(number "26"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11515,26 +9678,16 @@
 				)
 			)
 			(pin tri_state line
-<<<<<<< HEAD
-				(at 12.7 -24.13 180)
-				(length 2.54)
-				(name "GP16"
-=======
 				(at 12.7 -13.97 180)
 				(length 2.54)
 				(name "GP19"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "21"
-=======
 				(number "25"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11542,167 +9695,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
-		)
-		(embedded_fonts no)
-	)
-	(symbol "Q_NPN_CEBE"
-		(pin_names
-			(offset 0)
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "Q"
-			(at 5.08 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NPN_CEBE"
-			(at 5.08 -1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 5.08 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN transistor, collector/emitter/base"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "BJT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Q_NPN_CEBE_0_1"
-			(polyline
-				(pts
-					(xy -2.54 0) (xy 0.635 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.635 1.905) (xy 0.635 -1.905)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 0)
-				(radius 2.8194)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Q_NPN_CEBE_1_1"
-			(polyline
-				(pts
-					(xy 0.635 0.635) (xy 2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.635 -0.635) (xy 2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(pin input line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "B"
-=======
 			(pin tri_state line
 				(at 12.7 -16.51 180)
 				(length 2.54)
 				(name "GP18"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "3"
-=======
 				(number "24"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11710,28 +9713,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(name "C"
-=======
 			(pin power_in line
 				(at 12.7 -19.05 180)
 				(length 2.54)
 				(name "GND"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "1"
-=======
 				(number "23"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11739,28 +9731,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
-			(pin passive line
-				(at 2.54 -5.08 90)
-				(length 2.54)
-				(name "E"
-=======
 			(pin tri_state line
 				(at 12.7 -21.59 180)
 				(length 2.54)
 				(name "GP17"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "2"
-=======
 				(number "22"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11768,29 +9749,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
-			(pin passive line
-				(at 2.54 -5.08 90)
-				(length 2.54)
-				(hide yes)
-				(name "E"
-=======
 			(pin tri_state line
 				(at 12.7 -24.13 180)
 				(length 2.54)
 				(name "GP16"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "4"
-=======
 				(number "21"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12308,7 +10277,6 @@
 			)
 			(pin input line
 				(at -16.51 8.89 0)
-<<<<<<< HEAD
 				(length 2.54)
 				(name "SDATA"
 					(effects
@@ -12329,21 +10297,13 @@
 				(at -16.51 5.08 0)
 				(length 2.54)
 				(name "SEN#"
-=======
-				(length 2.54)
-				(name "SDATA"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "24"
-=======
-				(number "2"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12351,28 +10311,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin output line
 				(at -16.51 -5.08 0)
 				(length 2.54)
 				(name "AUXOUT"
-=======
-			(pin input line
-				(at -16.51 5.08 0)
-				(length 2.54)
-				(name "SEN#"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "13"
-=======
-				(number "24"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12435,11 +10384,7 @@
 				)
 			)
 			(pin passive line
-<<<<<<< HEAD
 				(at -6.35 -21.59 90)
-=======
-				(at -8.89 -21.59 90)
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 				(length 2.54)
 				(name "GNDD"
 					(effects
@@ -12448,11 +10393,7 @@
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "6"
-=======
-				(number "3"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12460,40 +10401,8 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin power_in line
 				(at -5.08 21.59 270)
-=======
-			(pin passive line
-				(at -6.35 -21.59 90)
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-				(length 2.54)
-				(name "GNDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-<<<<<<< HEAD
-				(number "12"
-=======
-				(number "6"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-<<<<<<< HEAD
-			(pin passive line
-				(at -3.81 -21.59 90)
-=======
-			(pin power_in line
-				(at -5.08 21.59 270)
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 				(length 2.54)
 				(name "VDDD"
 					(effects
@@ -12502,11 +10411,7 @@
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "9"
-=======
 				(number "12"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12515,11 +10420,7 @@
 				)
 			)
 			(pin passive line
-<<<<<<< HEAD
-				(at -1.27 -21.59 90)
-=======
 				(at -3.81 -21.59 90)
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 				(length 2.54)
 				(name "GNDD"
 					(effects
@@ -12528,11 +10429,7 @@
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "10"
-=======
 				(number "9"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12540,28 +10437,35 @@
 					)
 				)
 			)
-<<<<<<< HEAD
+			(pin passive line
+				(at -1.27 -21.59 90)
+				(length 2.54)
+				(name "GNDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 0 21.59 270)
 				(length 2.54)
 				(name "VDDD"
-=======
-			(pin passive line
-				(at -1.27 -21.59 90)
-				(length 2.54)
-				(name "GNDD"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "17"
-=======
-				(number "10"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12569,28 +10473,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin passive line
 				(at 1.27 -21.59 90)
 				(length 2.54)
 				(name "GNDD"
-=======
-			(pin power_in line
-				(at 0 21.59 270)
-				(length 2.54)
-				(name "VDDD"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "16"
-=======
-				(number "17"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12599,11 +10492,7 @@
 				)
 			)
 			(pin passive line
-<<<<<<< HEAD
 				(at 3.81 -21.59 90)
-=======
-				(at 1.27 -21.59 90)
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 				(length 2.54)
 				(name "GNDD"
 					(effects
@@ -12612,11 +10501,7 @@
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "18"
-=======
-				(number "16"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12624,28 +10509,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin power_in line
 				(at 5.08 21.59 270)
 				(length 2.54)
 				(name "VDDI"
-=======
-			(pin passive line
-				(at 3.81 -21.59 90)
-				(length 2.54)
-				(name "GNDD"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "23"
-=======
-				(number "18"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12671,28 +10545,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin output line
 				(at 16.51 15.24 180)
 				(length 2.54)
 				(name "IFOUT"
-=======
-			(pin passive line
-				(at 8.89 -21.59 90)
-				(length 2.54)
-				(name "GNDI"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "22"
-=======
-				(number "21"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12700,28 +10563,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(pin passive line
 				(at 16.51 7.62 180)
 				(length 2.54)
 				(name "IFLA"
-=======
-			(pin output line
-				(at 16.51 15.24 180)
-				(length 2.54)
-				(name "IFOUT"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "19"
-=======
-				(number "22"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12730,26 +10582,16 @@
 				)
 			)
 			(pin passive line
-<<<<<<< HEAD
 				(at 16.51 2.54 180)
 				(length 2.54)
 				(name "IFLB"
-=======
-				(at 16.51 7.62 180)
-				(length 2.54)
-				(name "IFLA"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
 				(number "20"
-=======
-				(number "19"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12758,37 +10600,7 @@
 				)
 			)
 			(pin passive line
-<<<<<<< HEAD
 				(at 16.51 -2.54 180)
-=======
-				(at 16.51 2.54 180)
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-				(length 2.54)
-				(name "IFLB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-<<<<<<< HEAD
-				(number "11"
-=======
-				(number "20"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-<<<<<<< HEAD
-				(at 16.51 -5.08 180)
-=======
-				(at 16.51 -2.54 180)
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 				(length 2.54)
 				(name "GNDD"
 					(effects
@@ -12797,8 +10609,6 @@
 						)
 					)
 				)
-<<<<<<< HEAD
-=======
 				(number "11"
 					(effects
 						(font
@@ -12817,7 +10627,6 @@
 						)
 					)
 				)
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 				(number "8"
 					(effects
 						(font
@@ -13563,8 +11372,6 @@
 					)
 				)
 				(number "28"
-<<<<<<< HEAD
-=======
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13601,7 +11408,6 @@
 					)
 				)
 				(number "37"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13609,17 +11415,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 19.05 -34.29 90)
+			(pin output line
+				(at 35.56 20.32 180)
 				(length 2.54)
-				(name "TEST_SE"
+				(name "RF2_OUTP"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "35"
+				(number "34"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13682,26 +11488,16 @@
 				)
 			)
 			(pin passive line
-<<<<<<< HEAD
-				(at 21.59 -34.29 90)
-				(length 2.54)
-				(name "EP"
-=======
 				(at 35.56 -5.08 180)
 				(length 2.54)
 				(name "EXTVCO_INP"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "37"
-=======
 				(number "12"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13709,28 +11505,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
-			(pin output line
-				(at 35.56 20.32 180)
-				(length 2.54)
-				(name "RF2_OUTP"
-=======
 			(pin passive line
 				(at 35.56 -7.62 180)
 				(length 2.54)
 				(name "EXTVCO_INN"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "34"
-=======
 				(number "13"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13738,28 +11523,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
-			(pin output line
-				(at 35.56 17.78 180)
-				(length 2.54)
-				(name "RF2_OUTN"
-=======
 			(pin passive line
 				(at 35.56 -16.51 180)
 				(length 2.54)
 				(name "VCTRL"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "33"
-=======
 				(number "11"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13767,28 +11541,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
-			(pin output line
-				(at 35.56 7.62 180)
-				(length 2.54)
-				(name "RF1_OUTP"
-=======
 			(pin power_out line
 				(at 35.56 -19.05 180)
 				(length 2.54)
 				(name "ICP"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "31"
-=======
 				(number "15"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13796,12 +11559,6 @@
 					)
 				)
 			)
-<<<<<<< HEAD
-			(pin output line
-				(at 35.56 5.08 180)
-				(length 2.54)
-				(name "RF1_OUTN"
-=======
 		)
 		(embedded_fonts no)
 	)
@@ -13868,18 +11625,13 @@
 				(at -11.43 6.35 0)
 				(length 2.54)
 				(name "PVIN"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "30"
-=======
 				(number "11"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13888,16 +11640,10 @@
 				)
 			)
 			(pin passive line
-<<<<<<< HEAD
-				(at 35.56 -5.08 180)
-				(length 2.54)
-				(name "EXTVCO_INP"
-=======
 				(at -11.43 6.35 0)
 				(length 2.54)
 				(hide yes)
 				(name "PVIN"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13913,26 +11659,16 @@
 				)
 			)
 			(pin passive line
-<<<<<<< HEAD
-				(at 35.56 -7.62 180)
-				(length 2.54)
-				(name "EXTVCO_INN"
-=======
 				(at -11.43 3.81 0)
 				(length 2.54)
 				(name "AVIN"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "13"
-=======
 				(number "10"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13941,26 +11677,16 @@
 				)
 			)
 			(pin passive line
-<<<<<<< HEAD
-				(at 35.56 -16.51 180)
-				(length 2.54)
-				(name "VCTRL"
-=======
 				(at -11.43 1.27 0)
 				(length 2.54)
 				(name "EN"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-<<<<<<< HEAD
-				(number "11"
-=======
 				(number "13"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13968,24 +11694,17 @@
 					)
 				)
 			)
-<<<<<<< HEAD
-			(pin power_out line
-				(at 35.56 -19.05 180)
-				(length 2.54)
-				(name "ICP"
-=======
 			(pin passive line
 				(at -11.43 -1.27 0)
 				(length 2.54)
 				(name "SS/TR"
->>>>>>> 0c2d1b7430eaecc17a0db87abd8f04a4ab53f3c1
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "15"
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
