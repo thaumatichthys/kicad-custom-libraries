@@ -53,17 +53,8 @@
 			)
 		)
 	)
+	(clearance 0)
 	(attr smd)
-	(fp_line
-		(start -7.4 0)
-		(end -10 0)
-		(stroke
-			(width 0.42)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "cc18fb59-09f0-4fd0-aaa0-11d7b84ee1cb")
-	)
 	(fp_line
 		(start -1.541925 -2.67069)
 		(end -1.541924 -2.670691)
@@ -203,16 +194,6 @@
 		)
 		(layer "F.Cu")
 		(uuid "115df474-b5fd-4b05-931d-d7be848f9b85")
-	)
-	(fp_line
-		(start 4.5 8.59808)
-		(end 4.5 9.794229)
-		(stroke
-			(width 0.42)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "7973b166-4342-4d61-bb9f-4cab0fc87ab3")
 	)
 	(fp_line
 		(start 6.475 0)
@@ -664,15 +645,15 @@
 		(uuid "01a75f18-8555-4d58-80eb-d7b9d7bf0df8")
 	)
 	(pad "1" smd roundrect
-		(at -10 0 270)
-		(size 0.42 0.7)
+		(at -8.775 0 270)
+		(size 0.419999 3.15)
 		(layers "F.Cu")
 		(roundrect_rratio 0.25)
 		(uuid "44b62965-e040-4d19-991a-7648e7b7e98a")
 	)
 	(pad "2" smd roundrect
-		(at 4.5 9.794229)
-		(size 0.42 0.7)
+		(at 4.505 9.322114)
+		(size 0.41 1.644228)
 		(layers "F.Cu")
 		(roundrect_rratio 0.25)
 		(uuid "3faec3ad-14bd-4156-918a-0a05a9743eec")
